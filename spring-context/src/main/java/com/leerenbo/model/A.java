@@ -13,6 +13,11 @@ public class A {
     private B b;
     private String a;
 
+    public String tttt() {
+        System.out.println("tttt");
+        return "tttt";
+    }
+
     public String getA() {
         return a;
     }
